@@ -183,7 +183,7 @@
    * PENTING:
    * Sekarang halaman pertama adalah s0.
    */
-  let current = $('#s0');
+  let current = $('#s1');
 
   let busy = false;
 
@@ -604,23 +604,15 @@
 
   /* ================= START ================= */
 
-  /*
-   * s0 adalah halaman pertama.
-   * Jangan pindahkan otomatis ke s1.
-   */
+  // Langsung mulai dari halaman permintaan maaf (s1)
   requestAnimationFrame(() => {
-
-    const first = $('#s0');
+    const first = $('#s1');
 
     if (first) {
-
       first.classList.add('active');
-
       void first.offsetWidth;
-
       first.classList.add('show');
     }
-
   });
 
 })();
