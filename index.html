@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maaf yaa, cantik ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg" id="bg" aria-hidden="true"></div>
+  <div class="fx" id="fx" aria-hidden="true"></div>
+
+  <main class="stage">
+
+    <!-- SECTION 1 -->
+    <section class="section active" id="s1">
+      <div class="card">
+        <img class="dino" src="assets/dino-eskrim.png" alt="Dino makan es krim">
+        <p class="kicker">buat kamu yang paling cantik ♡</p>
+        <h1 class="title">Haii cantik...</h1>
+        <p class="text long">Haii cantik, makasih udah mau deket sama aku,aku seneng banget bisa ketemu,jalan,sama hug kamu hehe,maaf yaa aku bikin kamu sakit hati kemaren,aku gaa bermaksud buat bikin kamu sakit hati sama sekali,aku minta maaf banget yaa. aku nyesel deh kita deket di waktu yang ga tepat gini,benci banget sumpah. tapi gapapa aku bakal berusaha buat bisa bikin kamu percaya kalo aku mau sama kamu,kalo apa yg aku omongin itu bukan omong kosong,kenapa aku berusaha nya itu? karena kalo kamu uda percaya kita jadi bisa sama sama hehe... pokoknya in this life, gamau in another life.</p>
+        <button class="btn" data-next="s2">lanjut yaa →</button>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="section" id="s2">
+      <div class="card">
+        <img class="dino" src="assets/dino-bunga.png" alt="Dino membawa bunga">
+        <h2 class="title">Do you love me too? ♡</h2>
+        <div class="choices" id="choices">
+          <button class="btn" id="yesBtn">YES ♡</button>
+          <button class="btn btn-no" id="noBtn" tabindex="-1" aria-disabled="true">NO</button>
+        </div>
+        <p class="funny" id="funny" aria-live="polite">&nbsp;</p>
+      </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="section" id="s3">
+      <div class="card">
+        <img class="dino" src="assets/dino-love.png" alt="Dino kacamata hati">
+        <h2 class="title">hehe love u forever ♡</h2>
+        <button class="btn" data-next="s4">aku masih punya sesuatu →</button>
+      </div>
+    </section>
+
+    <!-- SECTION 4 -->
+    <section class="section" id="s4">
+      <div class="card">
+        <img class="dino dino-wide" src="assets/dino-vidcall.png" alt="Dua dino video call">
+        <h2 class="title">Vidcall lagi yuuu? 📞♡</h2>
+        <p class="text">aku kangenn banget sama suara kamu, ocehan kamu, cerita kamu, ketawa kamu, panggilan sayang kamu</p>
+        <button class="btn" data-next="s5">ayooo vidcall!!! →</button>
+      </div>
+    </section>
+
+    <!-- SECTION 5 -->
+    <section class="section" id="s5">
+      <div class="card">
+        <img class="dino" src="assets/dino-telepon.png" alt="Dino memegang telepon">
+        <h2 class="title">ditunggu yaa cantikkuuu ♡</h2>
+        <p class="text">kalau udah bisa vidcall, jangan lupa kabarin aku yaa. aku bakal nungguin kamu hehe.</p>
+        <p class="sign">— dari aku, yang sayang kamu ♡</p>
+        <button class="btn" data-next="s1">ulang dari awal ↻</button>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
