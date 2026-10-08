@@ -183,7 +183,7 @@
    * PENTING:
    * Sekarang halaman pertama adalah s0.
    */
-  let current = $('#s0');
+  let current = $('#s1');
 
   let busy = false;
 
